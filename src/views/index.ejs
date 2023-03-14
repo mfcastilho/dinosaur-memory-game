@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dino Memory Game</title>
+
+
+  <link rel="stylesheet" href="/style/style.css">
+
+
+  <script src="/src/app.js" defer></script>
+  <script  src="/js/flipTheCard.js" defer></script>
+  <script src="/js/timerFunctions.js" defer></script>
+</head>
+<body>
+
+  <div class="main-container">
+    <div class="memory-game">
+
+      <% dataBase.forEach(dino =>{ %>
+  
+        <div class="card-box card" id="<%= dino.name %>" name="<%= dino.name %>">
+          <img class="dinosaur-picture card-front" src="<%= dino.image %>" alt="dino-picture" title="<%= dino.name %>">
+          <img class="hidden-picture card-back" src="/img/Ponto-Interrogacao.png" alt="hidden picture image">
+        </div>
+  
+      <% }) %> 
+      
+  
+    </div>
+
+    <aside class="optionals-buttons-container">
+
+      <div class="wrapper-elements">
+
+        <button class="mute-button styling-buttons">Silenciar audio</button>
+
+        <div class="input-box">
+          <input type="checkbox" id="mute-button-checkbox-id" name="mute-button-checkbox" class="mute-button-checkbox">
+        </div>
+
+      </div>
+      <div class="stopwatch_box">
+          
+        <div class="stopwatch">
+          <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>:<span id="millisecond">000</span>
+        </div>
+      
+        <button class="styling-buttons" data-start-button type="button" name="start">start</button>
+        <button class="styling-buttons" data-pause-button type="button" name="pause">pause</button>
+        <button class="styling-buttons" data-reset-button type="button" name="reset">reset</button>
+        
+      </div>
+      
+    </aside>
+
+  </div>
+  
+
+  
+</body>
+</html>
