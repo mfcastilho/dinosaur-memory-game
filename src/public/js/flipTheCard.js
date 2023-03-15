@@ -147,7 +147,7 @@ function audioFoundTheMatch(dinoName){
       
       setTimeout(()=>{
         lockBoard = false;
-      },4000)
+      },6000)
     }, 2500)
   },1000)
   
@@ -164,9 +164,25 @@ function audioFinishingTheGame(){
   const url = `../sounds/parabens-voce-terminou-o-jogo.mp3`;
   audio.src = url;
 
+  let audioClapping = new Audio();
+  const urlClapping = `../sounds/Clapping-sound.mp3`;
+  audioClapping.src = urlClapping;
+
+  let audioFireworks = new Audio();
+  const urlFireworks = `../sounds/fogos.mp3`;
+  audioFireworks.src = urlFireworks;
+
+
   setTimeout(()=>{
-    audio.play();
-  }, 2500)
+    audioClapping.play();
+    audioClapping.volume = 0.4;
+    audioFireworks.play();
+    audioFireworks.volume = 0.5;
+    setTimeout(()=>{
+      audio.play();
+    }, 2500)
+  },1000)
+  
 }
 
 //Evento de click
