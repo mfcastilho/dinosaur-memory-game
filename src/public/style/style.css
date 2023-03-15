@@ -329,7 +329,7 @@ input.mute-button-checkbox{
   .card{
   
     height: 7rem;
-    width: 4.5rem;
+    width: 5rem;
     
   }
 
@@ -385,8 +385,8 @@ input.mute-button-checkbox{
 
   .card{
   
-    height: 6.5rem;
-    width: 4rem;
+    height: 7rem;
+    width: 5rem;
     
   }
 
@@ -464,12 +464,7 @@ input.mute-button-checkbox{
 
 @media (max-width:569px){
 
-  .card{
   
-    height: 5.5rem;
-    width: 3rem;
-    
-  }
   .main-container{
   
     padding: .1rem;
@@ -480,10 +475,11 @@ input.mute-button-checkbox{
 
   .card{
   
-    height: 7.5rem;
+    height: 7rem;
     width: 5rem;
     
   }
+  
 
   .mute-button-checkbox{
     width: .8rem;
@@ -517,8 +513,8 @@ input.mute-button-checkbox{
 
   .card{
   
-    height: 5.5rem;
-    width: 3rem;
+    height: 6.5rem;
+    width: 4.4rem;
     
   }
 
@@ -557,8 +553,8 @@ input.mute-button-checkbox{
 
   .card{
   
-    height: 5.5rem;
-    width: 3rem;
+    height: 6.5rem;
+    width: 4.4rem;
     
   }
 
@@ -599,8 +595,8 @@ input.mute-button-checkbox{
 
   .card{
   
-    height: 5.5rem;
-    width: 3rem;
+    height: 6.5rem;
+    width: 4.4rem;
     
   }
 
