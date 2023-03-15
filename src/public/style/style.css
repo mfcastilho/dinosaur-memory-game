@@ -379,7 +379,7 @@ input.mute-button-checkbox{
     padding: 1rem;
   }
   .memory-game{
-    padding: 0 5rem;
+    padding: 0 
   }
 
   .card{
@@ -454,9 +454,7 @@ input.mute-button-checkbox{
 
     padding: 1rem;
   }
-  .memory-game{
-    padding: 0 2rem;
-  }
+  
 } 
 
 
@@ -468,9 +466,7 @@ input.mute-button-checkbox{
   
     padding: .1rem;
   }
-  .memory-game{
-    padding: 0 1rem;
-  }
+ 
 
   .card{
   
