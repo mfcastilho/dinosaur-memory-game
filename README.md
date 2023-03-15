@@ -1,3 +1,2 @@
 # developing a simple memory game
-# dinosaur-memory-game
-# dinosaur-memory-game
+deploy: https://dinosaur-memory-game.onrender.com/
