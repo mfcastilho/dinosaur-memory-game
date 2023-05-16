@@ -13,14 +13,15 @@ Certifique-se de ter o [Node.js](https://nodejs.org) instalado em seu sistema an
 
 ## Instalação
 
-1. Faça o clone deste repositório.
-2. Navegue até o diretório do projeto no terminal.
-3. Execute o seguinte comando para instalar as dependências:
+1. Faça o clone deste repositório: git clone https://github.com/seu-usuario/nome-do-repositorio.git
+2. Navegue até o diretório do projeto no terminal: cd nome-do-repositorio
+3. Execute o seguinte comando para instalar as dependências: npm install
 
+Agora o projeto está configurado corretamente em seu ambiente local e pronto para ser executado.
 
 ## Executando o Jogo
 
-Após a instalação das dependências, execute o seguinte comando para iniciar o jogo:
+Após a instalação das dependências, execute o seguinte comando para iniciar o jogo: npm run dev
 
 
 O jogo estará disponível em `http://localhost:3000`. Abra este URL em seu navegador para começar a jogar.
