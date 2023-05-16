@@ -1,6 +1,6 @@
 # Jogo da Memória de Dinossauro
 
-Este é um jogo da memória de dinossauros desenvolvido em JavaScript, Node.js e Express, usando HTML e CSS para a interface. O objetivo do jogo é encontrar todas as cartas correspondentes de dinossauros e foi criado com o objetivo de entreter meu filhinho de 3 anos, que é fascinado por dinossauros.
+Este é um jogo da memória de dinossauros desenvolvido em JavaScript, Node.js e Express, usando HTML e CSS para a interface. O objetivo do jogo é encontrar todas as cartas correspondentes de dinossauros e foi criado com a intenção de entreter meu filhinho de 3 anos, que é fascinado por dinossauros.
 
 
 ## Demo
