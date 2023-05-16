@@ -24,7 +24,7 @@ Agora o projeto está configurado corretamente em seu ambiente local e pronto pa
 Após a instalação das dependências, execute o seguinte comando para iniciar o jogo: npm run dev
 
 
-O jogo estará disponível em `http://localhost:3000`. Abra este URL em seu navegador para começar a jogar.
+O jogo estará disponível em `http://localhost:8000`. Abra este URL em seu navegador para começar a jogar.
 
 ## Funcionalidades
 
